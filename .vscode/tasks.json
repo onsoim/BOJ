@@ -22,7 +22,7 @@
         },
         {
             "label": "execute",
-            "command": "cd ${fileDirname} && /usr/bin/g++ -std=c++17 -o ${fileDirname}/${fileBasenameNoExtension} ${file} && ./${fileBasenameNoExtension}",
+            "command": "cd ${fileDirname} && /usr/bin/g++ -std=c++17 -o ${fileDirname}/${fileBasenameNoExtension}.o ${file} && ./${fileBasenameNoExtension}.o",
             "group": {
                 "kind": "test",
                 "isDefault": true
