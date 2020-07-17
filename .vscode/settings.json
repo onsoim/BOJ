@@ -75,7 +75,8 @@
         "memory_resource": "cpp",
         "cinttypes": "cpp",
         "map": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "set": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "python.pythonPath": "venv/bin/python3.7"
