@@ -1,0 +1,11 @@
+
+# Build output
+## For C++17
+*.o
+## For Kotlin(JVM)
+*.class
+## For Python3
+*.pyc
+
+# macOS
+.DS_Store
