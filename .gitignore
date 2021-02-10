@@ -1,0 +1,6 @@
+
+# Build output
+*.pyc
+
+# macOS
+.DS_Store
