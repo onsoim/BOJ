@@ -2,6 +2,9 @@
 # Build output
 ## For C++17
 *.o
+## For Kotlin(JVM)
+out/
+*.class
 ## For Python3
 *.pyc
 
