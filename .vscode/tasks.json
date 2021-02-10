@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "type": "shell",
+    "tasks": [
+        {
+            "label": "c++17 build",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-o",
+                "${file}",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-O2",
+                "-Wall",
+                "-lm",
+                "-static"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "execute",
+            "command": "cd ${fileDirname} && /usr/bin/g++ -std=c++17 -o ${fileDirname}/${fileBasenameNoExtension}.o ${file} && ./${fileBasenameNoExtension}.o",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
