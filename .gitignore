@@ -1,5 +1,8 @@
 
 # Build output
+## For C++17
+*.o
+## For Python3
 *.pyc
 
 # macOS
