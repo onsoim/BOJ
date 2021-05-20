@@ -1,6 +1,7 @@
 {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
     "version": "2.0.0",
-    "type": "shell",
     "tasks": [
         {
             "label": "c++17 build",
@@ -25,6 +26,17 @@
             "command": "cd ${fileDirname} && /usr/bin/g++ -std=c++17 -o ${fileDirname}/${fileBasenameNoExtension}.o ${file} && ./${fileBasenameNoExtension}.o",
             "group": {
                 "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "python3 with TC",
+            "type": "shell",
+            // "command": "ls -d TC/* | xargs -L 1 cat | python3 solve.py",
+            // "command": "for i in $(ls -d ${workspaceFolder}/TC/*.in); do python3 solve.py < $i; done",
+            "command": "${workspaceFolder}/Run/run.sh",
+            "group": {
+                "kind": "build",
                 "isDefault": true
             }
         }
