@@ -15,14 +15,13 @@ fun composite(n: Int): List<Int> {
     val reverse = arrayListOf<Int>(n)
 
     var i = 2
-    while (i*i < n) {
+    while (i*i <= n) {
         if (n % i == 0) {
             forward.add(i)
             reverse.add(n/i)
         }
         i++
     }
-    if (n % i == 0) forward.add(i)
 
     return (forward + reverse.reversed()).distinct()
 }
