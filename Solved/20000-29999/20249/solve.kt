@@ -20,7 +20,7 @@ fun main() = with(Scanner(System.`in`)) {
     var y_n = pqr[0] + B(2) * pqr[1] - pqr[2]
 
     var x_d = B(2) * (pqr[0] + pqr[2])
-    var y_d = B(2) * (pqr[0] + pqr[2])
+    var y_d = x_d
 
     val x_g = Euclidean(x_n, x_d)
     val y_g = Euclidean(y_n, y_d)
