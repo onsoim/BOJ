@@ -1,0 +1,7 @@
+3
+A(B|_)C
+ADC
+A(B|D|_)C
+ADC
+A(B|CD(E|_)G)E
+BOY
