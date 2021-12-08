@@ -1,6 +1,7 @@
 
 # Build output
 *.o
+solve
 
 # macOS
 .DS_Store
