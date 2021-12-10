@@ -2,6 +2,7 @@
 # Build output
 ## For C++17
 *.o
+solve
 
 ## For Kotlin(JVM)
 *.jar
