@@ -1,9 +1,12 @@
+import java.io.*
 import java.util.*
 
-fun main() = with(Scanner(System.`in`)) {
-    val N = nextInt()
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+    val bw = BufferedWriter(OutputStreamWriter(System.out))
 
-    for (i in 0 until N){
-        print(" $i")
-    }
+    val N = readLine()!!.toInt()
+    bw.write(N)
+
+    bw.flush()
+    bw.close()
 }
