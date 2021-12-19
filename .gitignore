@@ -5,6 +5,7 @@
 
 ## For Kotlin(JVM)
 *.jar
+solve
 
 ## For Python3
 *.pyc
