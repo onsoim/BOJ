@@ -23,7 +23,7 @@ fun main() {
 
     repeat(58) { i ->
         repeat(58) { j ->
-            if (c[i][j] != 0) { lazy.add(Pair((i + 65).toChar(), (j + 65).toChar())) }
+            if (i != j && c[i][j] != 0) { lazy.add(Pair((i + 65).toChar(), (j + 65).toChar())) }
         }
     }
 
