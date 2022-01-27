@@ -30,7 +30,6 @@ fun dijkstra(vertex: Array<ArrayList<Pair<Int, Long>>>, X: Int): Array<Long> {
 }
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
-    println(INF)
     val (N, M) = get()
     val vertex  = Array(N, { arrayListOf<Pair<Int, Long>>() })
 
