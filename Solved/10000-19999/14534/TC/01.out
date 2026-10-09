@@ -1,0 +1,39 @@
+Case # 1:
+abc
+acb
+bac
+bca
+cab
+cba
+Case # 2:
+zxyw
+zxwy
+zyxw
+zywx
+zwxy
+zwyx
+xzyw
+xzwy
+xyzw
+xywz
+xwzy
+xwyz
+yzxw
+yzwx
+yxzw
+yxwz
+ywzx
+ywxz
+wzxy
+wzyx
+wxzy
+wxyz
+wyzx
+wyxz
+Case # 3:
+p7*
+p*7
+7p*
+7*p
+*p7
+*7p
